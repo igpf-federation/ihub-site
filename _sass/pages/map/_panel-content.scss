@@ -1,0 +1,176 @@
+.panel-content {
+	position: absolute;
+	top: 200px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	overflow: auto;
+	padding: $gutter-width-xs;
+	padding-top: 0;
+
+	@include xs {
+		padding-bottom: 5em;
+	}
+}
+
+.store {
+	h2 {
+		margin: 0;
+		font-size: 1.2em;
+		cursor: pointer;
+		color: $color-text;
+	}
+
+	.distance-wrapper {
+		display: none;
+		cursor: pointer;
+	}
+
+	.btn {
+		margin: 0;
+	}
+
+	span.ihub {
+		background: $color-accent;
+		color: white;
+		padding: 0.1em 0.3em;
+		position: relative;
+		margin: -0.075em 0;
+	}
+
+	p {
+		position: relative;
+		padding-left: 1.5em;
+
+		.fa {
+			position: absolute;
+			top: 0.15em;
+			left: 0;
+		}
+	}
+
+	p.distance-wrapper {
+		margin: 0.15em 0 0.5em;
+	}
+
+	p.details-show,
+	p.map-show,
+	p.directions-show {
+		margin: 0.25em 0;
+		color: $color-link;
+
+		span {
+			cursor: pointer;
+		}
+		
+	}
+
+	p.directions-show {
+		margin-top: 0.5em;
+	}
+
+	p.details-show {
+		margin-bottom: 0.5em;
+
+		.show-more { display: inline; }
+		.show-less { display: none; }
+
+	}
+
+	.more-details {
+		display: none;
+		padding: 0.8em;
+		background: towhite(black, 0.95);
+		color: towhite(black, 0.33);
+		margin: 0.5em 0 (map-get($half-gutter-bp, xs) * 2 * 1.6);
+
+		p {
+			margin: 0 0 0.25em;
+
+			&:last-child {
+				margin: 0;
+			}
+
+			a {
+				color: towhite(black, 0.33);
+
+				&:hover {
+					text-decoration: underline;
+				}
+			}
+		}
+	}
+
+	p.details-show.show {
+
+		.show-more { display: none; }
+		.show-less { display: inline; }
+
+		& + .more-details {
+			display: block;
+		}
+	}
+
+	&.ihub {
+
+		p.details-show,
+		p.map-show,
+		p.directions-show {
+			color: $color-accent;
+		}
+
+		.btn {
+			@include btn-color($color-accent);
+		}		
+	}
+}
+
+.store p.call-reminder-on-marker {
+	display: none;
+	padding: 0;
+	max-width: 18em;
+	margin: 0.5em 0;
+
+	&:before {
+		content: "
+		Is this your usual GP practice?
+		If so, you can call their 
+		number 8am to 8pm seven days 
+		a week and ask for an I:HUB 
+		appointment.
+		";
+	}
+}
+#map-canvas .store p.call-reminder-on-marker {
+	display: block;
+}
+
+#map-canvas .store p.map-show {
+	display: none;
+}
+
+.call-reminder {
+	background: $color-primary;
+	color: white;
+
+	&.not-blue {
+		background: white;
+		color: $color-text;
+	}
+
+	&:before {
+		content: "
+		Is your usual GP practice listed 
+		here? If so, you can call their 
+		number 8am to 8pm seven days 
+		a week and ask for an I:HUB 
+		appointment.
+		";
+	}
+}
+
+.container-map.show-ihub {
+	.call-reminder {
+		display: none;
+	}
+}

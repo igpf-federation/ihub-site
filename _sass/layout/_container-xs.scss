@@ -1,0 +1,38 @@
+.container-xs {
+	$val: map-get($half-gutter-bp, xs);
+	padding-left: $val * 2;
+	padding-right: $val * 2;
+	// font-size: map-get($font-size-bp, xs);
+	@include xs {
+		font-size: map-get($font-size-bp, xs);
+	}
+
+	p, h1, h2, h3, h4, .text-el {
+		//margin: map-get($font-size-bp, xs) 0;
+	}
+
+	.row {
+		margin-left: -$val;
+		margin-right: -$val;
+
+		[class^="col"], .col-xs-12 {
+			padding-left: $val;
+			padding-right: $val;
+		}
+	}
+
+	.row.tiles {
+		margin-top: $val;
+		margin-bottom: $val;
+
+		[class^="col"], .col-xs-12 {
+			padding-top: $val;
+			padding-bottom: $val;
+
+			.tile {
+				margin-bottom: $val * 2;
+				padding: $val * 2 * 1.6;
+			}
+		}
+	}
+}

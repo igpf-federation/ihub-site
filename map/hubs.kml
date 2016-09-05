@@ -1,0 +1,320 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2'>
+	<Document>
+		<name>Real GPs</name>
+		<Placemark>
+			<name>Andover Medical Centre</name>
+			<description><![CDATA[270-282 Hornsey Rd, London N7 7QZ, UK<br>www.theandovermedicalcentre.co.uk<br>+44 20 7281 6956]]></description>
+			<styleUrl>#icon-1899-0288D1</styleUrl>
+			<Point>
+				<coordinates>-0.11660280000000967,51.5618583,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>City Road Medical Centre</name>
+			<description><![CDATA[190-196 City Rd, London EC1V 2QH, UK<br>www.cityroadmedicalcentre.org.uk<br>+44 20 7336 8170]]></description>
+			<styleUrl>#icon-1899-0288D1</styleUrl>
+			<Point>
+				<coordinates>-0.09078099999999267,51.5278873,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Clerkenwell Medical Practice</name>
+			<description><![CDATA[Finsbury Health Centre, Pine St, London EC1R 0LP, UK<br>www.clerkenwellmedicalpractice.org.uk<br>+44 20 7833 5906]]></description>
+			<styleUrl>#icon-1899-0288D1</styleUrl>
+			<Point>
+				<coordinates>-0.1087800000000243,51.52484799999999,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>The Dartmouth Park Practice</name>
+			<description><![CDATA[18 Dartmouth Park Hill, Kentish Town, London NW5 1HL, UK<br>+44 20 7272 1337]]></description>
+			<styleUrl>#icon-1899-0288D1</styleUrl>
+			<Point>
+				<coordinates>-0.13903719999996156,51.55792870000001,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Dr Ko &amp; Partner</name>
+			<description><![CDATA[244 Tufnell Park Rd, London N19 5EW, UK<br>www.tufnellparksurgery.nhs.uk<br>+44 20 7272 8747]]></description>
+			<styleUrl>#icon-1899-0288D1</styleUrl>
+			<Point>
+				<coordinates>-0.1377422000000479,51.55697319999999,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Hanley Primary Care Centre</name>
+			<description><![CDATA[51 Hanley Rd, London N4 3DU, UK<br>www.hanleygp.co.uk<br>+44 20 3874 5676]]></description>
+			<styleUrl>#icon-1899-0288D1</styleUrl>
+			<Point>
+				<coordinates>-0.11939600000005157,51.568557,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>The Archway Medical Centre</name>
+			<description><![CDATA[652 Holloway Rd, London N19 3NU, UK<br>www.archwaymedicalcentre.co.uk<br>+44 20 7272 0111]]></description>
+			<styleUrl>#icon-1899-0288D1</styleUrl>
+			<Point>
+				<coordinates>-0.12612650000005488,51.5625254,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Hanley Primary Care Centre</name>
+			<description><![CDATA[51 Hanley Rd, London N4 3DU, UK<br>www.hanleygp.co.uk<br>+44 20 3874 5676]]></description>
+			<styleUrl>#icon-1899-0288D1</styleUrl>
+			<Point>
+				<coordinates>-0.11939600000005157,51.568557,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Highbury Grange Health Centre</name>
+			<description><![CDATA[1-5 Highbury Grange, Islington, London N5 2QB, UK<br>www.highburygrangemedicalpractice.co.uk<br>+44 20 7226 2462]]></description>
+			<styleUrl>#icon-1899-0288D1</styleUrl>
+			<Point>
+				<coordinates>-0.09636249999994106,51.5551006,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Islington Medical Centre</name>
+			<description><![CDATA[28 Laycock St, London N1 1SW, UK<br>www.islingtoncentralmedicalcentre.org<br>+44 20 7359 0445]]></description>
+			<styleUrl>#icon-1899-0288D1</styleUrl>
+			<Point>
+				<coordinates>-0.10556240000005346,51.5445777,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Killick Street Health Centre</name>
+			<description><![CDATA[75 Killick St, Kings Cross, London N1 9RH, UK<br>www.killickstreet.co.uk<br>+44 20 7833 9939]]></description>
+			<styleUrl>#icon-1899-0288D1</styleUrl>
+			<Point>
+				<coordinates>-0.11887879999994766,51.5339202,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Mildmay Medical Practice</name>
+			<description><![CDATA[Medical Centre 2a Green Lanes, Stoke Newington, London N16 9NF, UK<br>www.mildmaymedicalpractice.co.uk<br>+44 20 7923 1999]]></description>
+			<styleUrl>#icon-1899-0288D1</styleUrl>
+			<Point>
+				<coordinates>-0.08618560000002162,51.5526344,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Mitchison Road Surgery</name>
+			<description><![CDATA[2 Mitchison Rd, London N1 3NG, UK<br>www.mitchisonroadsurgery.co.uk<br>+44 20 7226 6016]]></description>
+			<styleUrl>#icon-1899-0288D1</styleUrl>
+			<Point>
+				<coordinates>-0.08787310000002435,51.54504319999999,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>New North Health Centre</name>
+			<description><![CDATA[287-293 New N Rd, London N1 7AA, UK<br>www.newnorthhealthcentre.com<br>+44 20 7226 9090]]></description>
+			<styleUrl>#icon-1899-0288D1</styleUrl>
+			<Point>
+				<coordinates>-0.0921834000000672,51.5381122,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Pine Street Medical Practice</name>
+			<description><![CDATA[Finsbury Health Centre, London EC1R 0LP, UK<br>www.pinestreetpractice.co.uk<br>+44 20 7713 5256]]></description>
+			<styleUrl>#icon-1899-0288D1</styleUrl>
+			<Point>
+				<coordinates>-0.1089663999999857,51.5249373,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Ritchie Street Group Practice</name>
+			<description><![CDATA[Ritchie Street Health Centre, 34 Ritchie St, London N1 0DG, UK<br>www.ritchiestreethealthcentre.co.uk<br>+44 20 7837 1663]]></description>
+			<styleUrl>#icon-1899-0288D1</styleUrl>
+			<Point>
+				<coordinates>-0.10795780000000832,51.5347182,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>River Place Health Centre</name>
+			<description><![CDATA[Essex Rd, London N1 2DE<br>www.riverplacegrouppractice.co.uk<br>+44 20 7704 2832]]></description>
+			<styleUrl>#icon-1899-0288D1</styleUrl>
+			<Point>
+				<coordinates>-0.09662589999993543,51.54048699999999,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Roman Way Medical Centre</name>
+			<description><![CDATA[58 Roman Way, London N7 8XF, UK<br>www.romanwaymedicalcentre.co.uk<br>+44 20 7607 7502]]></description>
+			<styleUrl>#icon-1899-0288D1</styleUrl>
+			<Point>
+				<coordinates>-0.11597699999992983,51.54695210000001,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Sobell Medical Centre</name>
+			<description><![CDATA[272 Holloway Rd, London N7 6NE, UK<br>www.sobellmedicalcentre.nhs.uk<br>+44 20 7609 3050]]></description>
+			<styleUrl>#icon-1899-0288D1</styleUrl>
+			<Point>
+				<coordinates>-0.11360149999995883,51.5539709,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Saint John's Way Medical Centre</name>
+			<description><![CDATA[96 St John's Way, London N19 3RN, UK<br>www.stjohnsway.co.uk<br>+44 20 7272 1585]]></description>
+			<styleUrl>#icon-1899-0288D1</styleUrl>
+			<Point>
+				<coordinates>-0.13129490000005717,51.5677957,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>St Peters Street Medical Practice</name>
+			<description><![CDATA[16 1/2 St Peter's St, Islington, London N1 8JG, UK<br>www.stpetersstreetmedicalpractice.co.uk<br>+44 20 7288 9320]]></description>
+			<styleUrl>#icon-1899-0288D1</styleUrl>
+			<Point>
+				<coordinates>-0.10039770000003045,51.53544609999999,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Stroud Green Medical Clinic</name>
+			<description><![CDATA[181 Stroud Green Rd, Stroud Green, London N4 3PZ, UK<br>www.stroudgreenmedicalclinic.co.uk<br>+44 20 7272 4323]]></description>
+			<styleUrl>#icon-1899-0288D1</styleUrl>
+			<Point>
+				<coordinates>-0.11507589999996526,51.5704965,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>The Amwell Practice</name>
+			<description><![CDATA[The Amwell Practice, 4 Naoroji St, London WC1X 0GB, UK]]></description>
+			<styleUrl>#icon-1899-0288D1</styleUrl>
+			<Point>
+				<coordinates>-0.11030359999995198,51.528084,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Beaumont Practice</name>
+			<description><![CDATA[Health Centre, Hornsey Rise, London N19 3YU, UK<br>www.thebeaumontpractice.co.uk<br>+44 20 7272 3155]]></description>
+			<styleUrl>#icon-1899-0288D1</styleUrl>
+			<Point>
+				<coordinates>-0.12498099999993428,51.571447,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>The Family Practice</name>
+			<description><![CDATA[117 Holloway Rd, London N7 8LT<br>+44 20 7607 4322]]></description>
+			<styleUrl>#icon-1899-0288D1</styleUrl>
+			<Point>
+				<coordinates>-0.10715600000003178,51.54840590000001,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Goodinge Group Practice</name>
+			<description><![CDATA[20 North Road, London N7 9EW, UK<br>www.goodingegrouppractice.com<br>+44 20 7619 6670]]></description>
+			<styleUrl>#icon-1899-0288D1</styleUrl>
+			<Point>
+				<coordinates>-0.12489170000003469,51.5479261,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>The Medical Centre</name>
+			<description><![CDATA[140 Holloway Rd, London N7 8DD, UK<br>www.themedicalcentreislington.co.uk<br>+44 20 7607 8259]]></description>
+			<styleUrl>#icon-1899-0288D1</styleUrl>
+			<Point>
+				<coordinates>-0.1096173999999337,51.5508119,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>The Miller Practice</name>
+			<description><![CDATA[49 Highbury New Park, Mildmay Ward, London N5 2ET, UK<br>www.millerpractice.nhs.uk<br>+44 20 7354 1972]]></description>
+			<styleUrl>#icon-1899-0288D1</styleUrl>
+			<Point>
+				<coordinates>-0.09214529999997012,51.5509723,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>The Northern Medical Centre</name>
+			<description><![CDATA[580 Holloway Rd, London N7 6LB, UK<br>www.northernmedicalcentre.co.uk<br>+44 20 3817 3975]]></description>
+			<styleUrl>#icon-1899-0288D1</styleUrl>
+			<Point>
+				<coordinates>-0.12337460000003375,51.5606948,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Partnership Primary Care Centre</name>
+			<description><![CDATA[331 Camden Rd, London N7 0SL, UK<br>www.partnershipprimarycarecentre.co.uk<br>+44 20 3817 4431]]></description>
+			<styleUrl>#icon-1899-0288D1</styleUrl>
+			<Point>
+				<coordinates>-0.12233760000003713,51.55406010000001,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>The Rise group Practice</name>
+			<description><![CDATA[Hornsey Rise Health Centre, London N19 3YU, UK<br>www.therisegrouppractice.co.uk<br>+44 20 7561 3420]]></description>
+			<styleUrl>#icon-1899-0288D1</styleUrl>
+			<Point>
+				<coordinates>-0.12520549999999275,51.5714118,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Tufnell Park Surgery</name>
+			<description><![CDATA[244 Tufnell Park Rd, London N19 5EW, UK<br>www.thetufnellsurgery.co.uk<br>+44 20 7272 9105]]></description>
+			<styleUrl>#icon-1899-0288D1</styleUrl>
+			<Point>
+				<coordinates>-0.13774200000000292,51.5569785,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>The Village Practice</name>
+			<description><![CDATA[115 Isledon Rd, London N7 7JJ, UK<br>www.thevillagepractice.org<br>+44 20 7700 6464]]></description>
+			<styleUrl>#icon-1899-0288D1</styleUrl>
+			<Point>
+				<coordinates>-0.10993800000005649,51.55971630000001,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Elizabeth Avenue Group Practice</name>
+			<description><![CDATA[2 Elizabeth Ave, Islington, London N1 3BS, UK<br>www.elizabethavenue.org.uk<br>+44 20 7226 6363]]></description>
+			<styleUrl>#icon-1899-0288D1</styleUrl>
+			<Point>
+				<coordinates>-0.09231190000002698,51.5388282,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Barnsbury Medical Practice</name>
+			<description><![CDATA[Bingfield Primary Care Centre, 8 Bingfield St, London N1 0AL, UK<br>+44 7985 702999]]></description>
+			<styleUrl>#icon-1899-0288D1</styleUrl>
+			<Point>
+				<coordinates>-0.11915959999998904,51.5392216,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Style id='icon-1899-0288D1-normal'>
+			<IconStyle>
+				<color>ffD18802</color>
+				<scale>1.0</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+		</Style>
+		<Style id='icon-1899-0288D1-highlight'>
+			<IconStyle>
+				<color>ffD18802</color>
+				<scale>1.0</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>1.0</scale>
+			</LabelStyle>
+		</Style>
+		<StyleMap id='icon-1899-0288D1'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#icon-1899-0288D1-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#icon-1899-0288D1-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+	</Document>
+</kml>

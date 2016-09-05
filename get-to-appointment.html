@@ -1,0 +1,56 @@
+---
+layout: default
+title: Getting There
+class: gp map-api gp-select get-to
+slug: get-to
+---
+
+<div class="container">
+	<div class="row tiles">
+		<div class="col-xs-12 col-md-7">
+			<div class="tile">
+				<h1>Getting to your appointment</h1>
+
+				<p>
+					Select the location for your I:HUB appointment from the dropdown list below:
+				</p>
+
+				<select id="ihub-select">
+					<option>Please select an I:HUB</option>
+
+					{% for ihub in site.data.ihub %}
+						<option class="ihub-option">{{ihub.loc}}</option>
+					{% endfor %}
+				</select>
+			</div>
+			<div class="tile">
+				<h2>I:HUBs across Islington</h2>
+				<p>
+					I:HUB clinics are based in existing GP practices across Islington, in order to offer convenient access to GPs to all Islington patients. Just click on the I:HUB pin that is most convenient for your care and you can ask for that specific hub location when you call your usual GP to request an I:HUB appointment.
+				</p>
+				<div
+					class="iframe-wrapper"
+					{% assign counter = 0 %}
+					{% for ihub in site.data.ihub %}
+						{% capture counter %}{{ counter | plus:1 }}{% endcapture %}
+						{% for gp in site.data.gp %}
+							{% if gp.name == ihub.gp %}
+								{% capture map_link %}
+								/ihub/{{ ihub.loc | replace: "'", "" | slugify }}
+								{% endcapture %}
+								data-{{counter}}-lat={{gp.latLng.lat}}
+								data-{{counter}}-lng={{gp.latLng.lng}}
+								data-{{counter}}-link={{map_link}}
+							{% endif %}
+						{% endfor %}
+					{% endfor %}
+				>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-xs-12 col-md-5">
+			{% include sidebar.html %}
+		</div>
+	</div>
+</div>

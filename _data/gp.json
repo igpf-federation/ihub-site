@@ -1,0 +1,1011 @@
+[{
+    "name": "Andover Medical Centre",
+    "latLng": {
+        "lat": 51.5618583,
+        "lng": -0.11660280000000967
+    },
+    "props": {
+        "title": "Andover Medical Centre",
+        "slug": "andovermedicalcentre011660280000000967515618583",
+        "address": "270-282 Hornsey Rd, London N7 7QZ, UK",
+        "web": "www.theandovermedicalcentre.co.uk",
+        "phone": "+44 20 7281 6956"
+    },
+    "is_ihub": true,
+    "distances": {
+        "0": {
+            "name": "Andover Medical Centre",
+            "distance": "0.0"
+        },
+        "1": {
+            "name": "Islington Medical Centre",
+            "distance": "2.1"
+        },
+        "2": {
+            "name": "Ritchie Street Group Practice",
+            "distance": "3.1"
+        }
+    }
+}, 
+{
+    "name": "City Road Medical Centre",
+    "latLng": {
+        "lat": 51.5278873,
+        "lng": -0.09078099999999267
+    },
+    "props": {
+        "title": "City Road Medical Centre",
+        "slug": "cityroadmedicalcentre009078099999999267515278873",
+        "address": "190-196 City Rd, London EC1V 2QH, UK",
+        "web": "www.cityroadmedicalcentre.org.uk",
+        "phone": "+44 20 7336 8170"
+    },
+    "is_ihub": false,
+    "distances": {
+        "0": {
+            "name": "Ritchie Street Group Practice",
+            "distance": "1.4"
+        },
+        "1": {
+            "name": "Islington Medical Centre",
+            "distance": "2.1"
+        },
+        "2": {
+            "name": "Andover Medical Centre",
+            "distance": "4.2"
+        }
+    }
+}, 
+{
+    "name": "Clerkenwell Medical Practice",
+    "latLng": {
+        "lat": 51.52484799999999,
+        "lng": -0.1087800000000243
+    },
+    "props": {
+        "title": "Clerkenwell Medical Practice",
+        "slug": "clerkenwellmedicalpractice010878000000002435152484799999999",
+        "address": "Finsbury Health Centre, Pine St, London EC1R 0LP, UK",
+        "web": "www.clerkenwellmedicalpractice.org.uk",
+        "phone": "+44 20 7833 5906"
+    },
+    "is_ihub": false,
+    "distances": {
+        "0": {
+            "name": "Ritchie Street Group Practice",
+            "distance": "1.1"
+        },
+        "1": {
+            "name": "Islington Medical Centre",
+            "distance": "2.2"
+        },
+        "2": {
+            "name": "Andover Medical Centre",
+            "distance": "4.2"
+        }
+    }
+}, 
+{
+    "name": "The Dartmouth Park Practice",
+    "latLng": {
+        "lat": 51.55792870000001,
+        "lng": -0.13903719999996156
+    },
+    "props": {
+        "title": "The Dartmouth Park Practice",
+        "slug": "thedartmouthparkpractice0139037199999961565155792870000001",
+        "address": "18 Dartmouth Park Hill, Kentish Town, London NW5 1HL, UK",
+        "phone": "+44 20 7272 1337"
+    },
+    "is_ihub": false,
+    "distances": {
+        "0": {
+            "name": "Andover Medical Centre",
+            "distance": "1.6"
+        },
+        "1": {
+            "name": "Islington Medical Centre",
+            "distance": "2.7"
+        },
+        "2": {
+            "name": "Ritchie Street Group Practice",
+            "distance": "3.4"
+        }
+    }
+}, 
+{
+    "name": "Dr Ko and Partner",
+    "latLng": {
+        "lat": 51.55697319999999,
+        "lng": -0.1377422000000479
+    },
+    "props": {
+        "title": "Dr Ko and Partner",
+        "slug": "drkopartner013774220000004795155697319999999",
+        "address": "244 Tufnell Park Rd, London N19 5EW, UK",
+        "web": "www.tufnellparksurgery.nhs.uk",
+        "phone": "+44 20 7272 8747"
+    },
+    "is_ihub": false,
+    "distances": {
+        "0": {
+            "name": "Andover Medical Centre",
+            "distance": "1.6"
+        },
+        "1": {
+            "name": "Islington Medical Centre",
+            "distance": "2.6"
+        },
+        "2": {
+            "name": "Ritchie Street Group Practice",
+            "distance": "3.2"
+        }
+    }
+}, 
+{
+    "name": "Hanley Primary Care Centre",
+    "latLng": {
+        "lat": 51.568557,
+        "lng": -0.11939600000005157
+    },
+    "props": {
+        "title": "Hanley Primary Care Centre",
+        "slug": "hanleyprimarycarecentre01193960000000515751568557",
+        "address": "51 Hanley Rd, London N4 3DU, UK",
+        "web": "www.hanleygp.co.uk",
+        "phone": "+44 20 3874 5676"
+    },
+    "is_ihub": false,
+    "distances": {
+        "0": {
+            "name": "Andover Medical Centre",
+            "distance": "0.8"
+        },
+        "1": {
+            "name": "Islington Medical Centre",
+            "distance": "2.8"
+        },
+        "2": {
+            "name": "Ritchie Street Group Practice",
+            "distance": "3.8"
+        }
+    }
+}, 
+{
+    "name": "The Archway Medical Centre",
+    "latLng": {
+        "lat": 51.5625254,
+        "lng": -0.12612650000005488
+    },
+    "props": {
+        "title": "The Archway Medical Centre",
+        "slug": "thearchwaymedicalcentre012612650000005488515625254",
+        "address": "652 Holloway Rd, London N19 3NU, UK",
+        "web": "www.archwaymedicalcentre.co.uk",
+        "phone": "+44 20 7272 0111"
+    },
+    "is_ihub": false,
+    "distances": {
+        "0": {
+            "name": "Andover Medical Centre",
+            "distance": "0.7"
+        },
+        "1": {
+            "name": "Islington Medical Centre",
+            "distance": "2.5"
+        },
+        "2": {
+            "name": "Ritchie Street Group Practice",
+            "distance": "3.3"
+        }
+    }
+}, 
+{
+    "name": "Hanley Primary Care Centre",
+    "latLng": {
+        "lat": 51.568557,
+        "lng": -0.11939600000005157
+    },
+    "props": {
+        "title": "Hanley Primary Care Centre",
+        "slug": "hanleyprimarycarecentre01193960000000515751568557",
+        "address": "51 Hanley Rd, London N4 3DU, UK",
+        "web": "www.hanleygp.co.uk",
+        "phone": "+44 20 3874 5676"
+    },
+    "is_ihub": false,
+    "distances": {
+        "0": {
+            "name": "Andover Medical Centre",
+            "distance": "0.8"
+        },
+        "1": {
+            "name": "Islington Medical Centre",
+            "distance": "2.8"
+        },
+        "2": {
+            "name": "Ritchie Street Group Practice",
+            "distance": "3.8"
+        }
+    }
+}, 
+{
+    "name": "Highbury Grange Health Centre",
+    "latLng": {
+        "lat": 51.5551006,
+        "lng": -0.09636249999994106
+    },
+    "props": {
+        "title": "Highbury Grange Health Centre",
+        "slug": "highburygrangehealthcentre009636249999994106515551006",
+        "address": "1-5 Highbury Grange, Islington, London N5 2QB, UK",
+        "web": "www.highburygrangemedicalpractice.co.uk",
+        "phone": "+44 20 7226 2462"
+    },
+    "is_ihub": false,
+    "distances": {
+        "0": {
+            "name": "Islington Medical Centre",
+            "distance": "1.3"
+        },
+        "1": {
+            "name": "Andover Medical Centre",
+            "distance": "1.6"
+        },
+        "2": {
+            "name": "Ritchie Street Group Practice",
+            "distance": "2.4"
+        }
+    }
+}, 
+{
+    "name": "Islington Medical Centre",
+    "latLng": {
+        "lat": 51.5445777,
+        "lng": -0.10556240000005346
+    },
+    "props": {
+        "title": "Islington Medical Centre",
+        "slug": "islingtonmedicalcentre010556240000005346515445777",
+        "address": "28 Laycock St, London N1 1SW, UK",
+        "web": "www.islingtoncentralmedicalcentre.org",
+        "phone": "+44 20 7359 0445"
+    },
+    "is_ihub": true,
+    "distances": {
+        "0": {
+            "name": "Islington Medical Centre",
+            "distance": "0.0"
+        },
+        "1": {
+            "name": "Ritchie Street Group Practice",
+            "distance": "1.1"
+        },
+        "2": {
+            "name": "Andover Medical Centre",
+            "distance": "2.1"
+        }
+    }
+}, 
+{
+    "name": "Killick Street Health Centre",
+    "latLng": {
+        "lat": 51.5339202,
+        "lng": -0.11887879999994766
+    },
+    "props": {
+        "title": "Killick Street Health Centre",
+        "slug": "killickstreethealthcentre011887879999994766515339202",
+        "address": "75 Killick St, Kings Cross, London N1 9RH, UK",
+        "web": "www.killickstreet.co.uk",
+        "phone": "+44 20 7833 9939"
+    },
+    "is_ihub": false,
+    "distances": {
+        "0": {
+            "name": "Ritchie Street Group Practice",
+            "distance": "0.8"
+        },
+        "1": {
+            "name": "Islington Medical Centre",
+            "distance": "1.5"
+        },
+        "2": {
+            "name": "Andover Medical Centre",
+            "distance": "3.1"
+        }
+    }
+}, 
+{
+    "name": "Mildmay Medical Practice",
+    "latLng": {
+        "lat": 51.5526344,
+        "lng": -0.08618560000002162
+    },
+    "props": {
+        "title": "Mildmay Medical Practice",
+        "slug": "mildmaymedicalpractice008618560000002162515526344",
+        "address": "Medical Centre 2a Green Lanes, Stoke Newington, London N16 9NF, UK",
+        "web": "www.mildmaymedicalpractice.co.uk",
+        "phone": "+44 20 7923 1999"
+    },
+    "is_ihub": false,
+    "distances": {
+        "0": {
+            "name": "Islington Medical Centre",
+            "distance": "1.6"
+        },
+        "1": {
+            "name": "Andover Medical Centre",
+            "distance": "2.3"
+        },
+        "2": {
+            "name": "Ritchie Street Group Practice",
+            "distance": "2.5"
+        }
+    }
+}, 
+{
+    "name": "Mitchison Road Surgery",
+    "latLng": {
+        "lat": 51.54504319999999,
+        "lng": -0.08787310000002435
+    },
+    "props": {
+        "title": "Mitchison Road Surgery",
+        "slug": "mitchisonroadsurgery0087873100000024355154504319999999",
+        "address": "2 Mitchison Rd, London N1 3NG, UK",
+        "web": "www.mitchisonroadsurgery.co.uk",
+        "phone": "+44 20 7226 6016"
+    },
+    "is_ihub": false,
+    "distances": {
+        "0": {
+            "name": "Islington Medical Centre",
+            "distance": "1.2"
+        },
+        "1": {
+            "name": "Ritchie Street Group Practice",
+            "distance": "1.8"
+        },
+        "2": {
+            "name": "Andover Medical Centre",
+            "distance": "2.7"
+        }
+    }
+}, 
+{
+    "name": "New North Health Centre",
+    "latLng": {
+        "lat": 51.5381122,
+        "lng": -0.0921834000000672
+    },
+    "props": {
+        "title": "New North Health Centre",
+        "slug": "newnorthhealthcentre00921834000000672515381122",
+        "address": "287-293 New N Rd, London N1 7AA, UK",
+        "web": "www.newnorthhealthcentre.com",
+        "phone": "+44 20 7226 9090"
+    },
+    "is_ihub": false,
+    "distances": {
+        "0": {
+            "name": "Islington Medical Centre",
+            "distance": "1.2"
+        },
+        "1": {
+            "name": "Ritchie Street Group Practice",
+            "distance": "1.2"
+        },
+        "2": {
+            "name": "Andover Medical Centre",
+            "distance": "3.1"
+        }
+    }
+}, 
+{
+    "name": "Pine Street Medical Practice",
+    "latLng": {
+        "lat": 51.5249373,
+        "lng": -0.1089663999999857
+    },
+    "props": {
+        "title": "Pine Street Medical Practice",
+        "slug": "pinestreetmedicalpractice01089663999999857515249373",
+        "address": "Finsbury Health Centre, London EC1R 0LP, UK",
+        "web": "www.pinestreetpractice.co.uk",
+        "phone": "+44 20 7713 5256"
+    },
+    "is_ihub": false,
+    "distances": {
+        "0": {
+            "name": "Ritchie Street Group Practice",
+            "distance": "1.1"
+        },
+        "1": {
+            "name": "Islington Medical Centre",
+            "distance": "2.2"
+        },
+        "2": {
+            "name": "Andover Medical Centre",
+            "distance": "4.1"
+        }
+    }
+}, 
+{
+    "name": "Ritchie Street Group Practice",
+    "latLng": {
+        "lat": 51.5347182,
+        "lng": -0.10795780000000832
+    },
+    "props": {
+        "title": "Ritchie Street Group Practice",
+        "slug": "ritchiestreetgrouppractice010795780000000832515347182",
+        "address": "Ritchie Street Health Centre, 34 Ritchie St, London N1 0DG, UK",
+        "web": "www.ritchiestreethealthcentre.co.uk",
+        "phone": "+44 20 7837 1663"
+    },
+    "is_ihub": true,
+    "distances": {
+        "0": {
+            "name": "Ritchie Street Group Practice",
+            "distance": "0.0"
+        },
+        "1": {
+            "name": "Islington Medical Centre",
+            "distance": "1.1"
+        },
+        "2": {
+            "name": "Andover Medical Centre",
+            "distance": "3.1"
+        }
+    }
+}, 
+{
+    "name": "River Place Health Centre",
+    "latLng": {
+        "lat": 51.54048699999999,
+        "lng": -0.09662589999993543
+    },
+    "props": {
+        "title": "River Place Health Centre",
+        "slug": "riverplacehealthcentre0096625899999935435154048699999999",
+        "address": "Essex Rd, London N1 2DE",
+        "web": "www.riverplacegrouppractice.co.uk",
+        "phone": "+44 20 7704 2832"
+    },
+    "is_ihub": false,
+    "distances": {
+        "0": {
+            "name": "Islington Medical Centre",
+            "distance": "0.8"
+        },
+        "1": {
+            "name": "Ritchie Street Group Practice",
+            "distance": "1.0"
+        },
+        "2": {
+            "name": "Andover Medical Centre",
+            "distance": "2.7"
+        }
+    }
+}, 
+{
+    "name": "Roman Way Medical Centre",
+    "latLng": {
+        "lat": 51.54695210000001,
+        "lng": -0.11597699999992983
+    },
+    "props": {
+        "title": "Roman Way Medical Centre",
+        "slug": "romanwaymedicalcentre0115976999999929835154695210000001",
+        "address": "58 Roman Way, London N7 8XF, UK",
+        "web": "www.romanwaymedicalcentre.co.uk",
+        "phone": "+44 20 7607 7502"
+    },
+    "is_ihub": false,
+    "distances": {
+        "0": {
+            "name": "Islington Medical Centre",
+            "distance": "0.8"
+        },
+        "1": {
+            "name": "Ritchie Street Group Practice",
+            "distance": "1.5"
+        },
+        "2": {
+            "name": "Andover Medical Centre",
+            "distance": "1.7"
+        }
+    }
+}, 
+{
+    "name": "Sobell Medical Centre",
+    "latLng": {
+        "lat": 51.5539709,
+        "lng": -0.11360149999995883
+    },
+    "props": {
+        "title": "Sobell Medical Centre",
+        "slug": "sobellmedicalcentre011360149999995883515539709",
+        "address": "272 Holloway Rd, London N7 6NE, UK",
+        "web": "www.sobellmedicalcentre.nhs.uk",
+        "phone": "+44 20 7609 3050"
+    },
+    "is_ihub": false,
+    "distances": {
+        "0": {
+            "name": "Andover Medical Centre",
+            "distance": "0.9"
+        },
+        "1": {
+            "name": "Islington Medical Centre",
+            "distance": "1.2"
+        },
+        "2": {
+            "name": "Ritchie Street Group Practice",
+            "distance": "2.2"
+        }
+    }
+}, 
+{
+    "name": "Saint John's Way Medical Centre",
+    "latLng": {
+        "lat": 51.5677957,
+        "lng": -0.13129490000005717
+    },
+    "props": {
+        "title": "Saint John's Way Medical Centre",
+        "slug": "saintjohnswaymedicalcentre013129490000005717515677957",
+        "address": "96 St John's Way, London N19 3RN, UK",
+        "web": "www.stjohnsway.co.uk",
+        "phone": "+44 20 7272 1585"
+    },
+    "is_ihub": false,
+    "distances": {
+        "0": {
+            "name": "Andover Medical Centre",
+            "distance": "1.2"
+        },
+        "1": {
+            "name": "Islington Medical Centre",
+            "distance": "3.1"
+        },
+        "2": {
+            "name": "Ritchie Street Group Practice",
+            "distance": "4.0"
+        }
+    }
+}, 
+{
+    "name": "St Peters Street Medical Practice",
+    "latLng": {
+        "lat": 51.53544609999999,
+        "lng": -0.10039770000003045
+    },
+    "props": {
+        "title": "St Peters Street Medical Practice",
+        "slug": "stpetersstreetmedicalpractice0100397700000030455153544609999999",
+        "address": "16 1/2 St Peter's St, Islington, London N1 8JG, UK",
+        "web": "www.stpetersstreetmedicalpractice.co.uk",
+        "phone": "+44 20 7288 9320"
+    },
+    "is_ihub": false,
+    "distances": {
+        "0": {
+            "name": "Ritchie Street Group Practice",
+            "distance": "0.5"
+        },
+        "1": {
+            "name": "Islington Medical Centre",
+            "distance": "1.1"
+        },
+        "2": {
+            "name": "Andover Medical Centre",
+            "distance": "3.1"
+        }
+    }
+}, 
+{
+    "name": "Stroud Green Medical Clinic",
+    "latLng": {
+        "lat": 51.5704965,
+        "lng": -0.11507589999996526
+    },
+    "props": {
+        "title": "Stroud Green Medical Clinic",
+        "slug": "stroudgreenmedicalclinic011507589999996526515704965",
+        "address": "181 Stroud Green Rd, Stroud Green, London N4 3PZ, UK",
+        "web": "www.stroudgreenmedicalclinic.co.uk",
+        "phone": "+44 20 7272 4323"
+    },
+    "is_ihub": false,
+    "distances": {
+        "0": {
+            "name": "Andover Medical Centre",
+            "distance": "1.0"
+        },
+        "1": {
+            "name": "Islington Medical Centre",
+            "distance": "3.0"
+        },
+        "2": {
+            "name": "Ritchie Street Group Practice",
+            "distance": "4.0"
+        }
+    }
+}, 
+{
+    "name": "The Amwell Practice",
+    "latLng": {
+        "lat": 51.528084,
+        "lng": -0.11030359999995198
+    },
+    "props": {
+        "title": "The Amwell Practice",
+        "slug": "theamwellpractice01103035999999519851528084",
+        "address": "The Amwell Practice, 4 Naoroji St, London WC1X 0GB, UK",
+        "phone": "+44 20 7837 2020"
+    },
+    "is_ihub": false,
+    "distances": {
+        "0": {
+            "name": "Ritchie Street Group Practice",
+            "distance": "0.8"
+        },
+        "1": {
+            "name": "Islington Medical Centre",
+            "distance": "1.9"
+        },
+        "2": {
+            "name": "Andover Medical Centre",
+            "distance": "3.8"
+        }
+    }
+}, 
+{
+    "name": "Beaumont Practice",
+    "latLng": {
+        "lat": 51.571447,
+        "lng": -0.12498099999993428
+    },
+    "props": {
+        "title": "Beaumont Practice",
+        "slug": "beaumontpractice01249809999999342851571447",
+        "address": "Health Centre, Hornsey Rise, London N19 3YU, UK",
+        "web": "www.thebeaumontpractice.co.uk",
+        "phone": "+44 20 7272 3155"
+    },
+    "is_ihub": false,
+    "distances": {
+        "0": {
+            "name": "Andover Medical Centre",
+            "distance": "1.2"
+        },
+        "1": {
+            "name": "Islington Medical Centre",
+            "distance": "3.3"
+        },
+        "2": {
+            "name": "Ritchie Street Group Practice",
+            "distance": "4.3"
+        }
+    }
+}, 
+{
+    "name": "The Family Practice",
+    "latLng": {
+        "lat": 51.54840590000001,
+        "lng": -0.10715600000003178
+    },
+    "props": {
+        "title": "The Family Practice",
+        "slug": "thefamilypractice0107156000000031785154840590000001",
+        "address": "117 Holloway Rd, London N7 8LT",
+        "phone": "+44 20 7607 4322"
+    },
+    "is_ihub": false,
+    "distances": {
+        "0": {
+            "name": "Islington Medical Centre",
+            "distance": "0.4"
+        },
+        "1": {
+            "name": "Ritchie Street Group Practice",
+            "distance": "1.5"
+        },
+        "2": {
+            "name": "Andover Medical Centre",
+            "distance": "1.6"
+        }
+    }
+}, 
+{
+    "name": "Goodinge Group Practice",
+    "latLng": {
+        "lat": 51.5479261,
+        "lng": -0.12489170000003469
+    },
+    "props": {
+        "title": "Goodinge Group Practice",
+        "slug": "goodingegrouppractice012489170000003469515479261",
+        "address": "20 North Road, London N7 9EW, UK",
+        "web": "www.goodingegrouppractice.com",
+        "phone": "+44 20 7619 6670"
+    },
+    "is_ihub": false,
+    "distances": {
+        "0": {
+            "name": "Islington Medical Centre",
+            "distance": "1.4"
+        },
+        "1": {
+            "name": "Andover Medical Centre",
+            "distance": "1.7"
+        },
+        "2": {
+            "name": "Ritchie Street Group Practice",
+            "distance": "1.9"
+        }
+    }
+}, 
+{
+    "name": "The Medical Centre",
+    "latLng": {
+        "lat": 51.5508119,
+        "lng": -0.1096173999999337
+    },
+    "props": {
+        "title": "The Medical Centre",
+        "slug": "themedicalcentre01096173999999337515508119",
+        "address": "140 Holloway Rd, London N7 8DD, UK",
+        "web": "www.themedicalcentreislington.co.uk",
+        "phone": "+44 20 7607 8259"
+    },
+    "is_ihub": false,
+    "distances": {
+        "0": {
+            "name": "Islington Medical Centre",
+            "distance": "0.7"
+        },
+        "1": {
+            "name": "Andover Medical Centre",
+            "distance": "1.3"
+        },
+        "2": {
+            "name": "Ritchie Street Group Practice",
+            "distance": "1.8"
+        }
+    }
+}, 
+{
+    "name": "The Miller Practice",
+    "latLng": {
+        "lat": 51.5509723,
+        "lng": -0.09214529999997012
+    },
+    "props": {
+        "title": "The Miller Practice",
+        "slug": "themillerpractice009214529999997012515509723",
+        "address": "49 Highbury New Park, Mildmay Ward, London N5 2ET, UK",
+        "web": "www.millerpractice.nhs.uk",
+        "phone": "+44 20 7354 1972"
+    },
+    "is_ihub": false,
+    "distances": {
+        "0": {
+            "name": "Islington Medical Centre",
+            "distance": "1.2"
+        },
+        "1": {
+            "name": "Andover Medical Centre",
+            "distance": "2.1"
+        },
+        "2": {
+            "name": "Ritchie Street Group Practice",
+            "distance": "2.1"
+        }
+    }
+}, 
+{
+    "name": "The Northern Medical Centre",
+    "latLng": {
+        "lat": 51.5606948,
+        "lng": -0.12337460000003375
+    },
+    "props": {
+        "title": "The Northern Medical Centre",
+        "slug": "thenorthernmedicalcentre012337460000003375515606948",
+        "address": "580 Holloway Rd, London N7 6LB, UK",
+        "web": "www.northernmedicalcentre.co.uk",
+        "phone": "+44 20 3817 3975"
+    },
+    "is_ihub": false,
+    "distances": {
+        "0": {
+            "name": "Andover Medical Centre",
+            "distance": "0.5"
+        },
+        "1": {
+            "name": "Islington Medical Centre",
+            "distance": "2.2"
+        },
+        "2": {
+            "name": "Ritchie Street Group Practice",
+            "distance": "3.1"
+        }
+    }
+}, 
+{
+    "name": "Partnership Primary Care Centre",
+    "latLng": {
+        "lat": 51.55406010000001,
+        "lng": -0.12233760000003713
+    },
+    "props": {
+        "title": "Partnership Primary Care Centre",
+        "slug": "partnershipprimarycarecentre0122337600000037135155406010000001",
+        "address": "331 Camden Rd, London N7 0SL, UK",
+        "web": "www.partnershipprimarycarecentre.co.uk",
+        "phone": "+44 20 3817 4431"
+    },
+    "is_ihub": false,
+    "distances": {
+        "0": {
+            "name": "Andover Medical Centre",
+            "distance": "1.0"
+        },
+        "1": {
+            "name": "Islington Medical Centre",
+            "distance": "1.6"
+        },
+        "2": {
+            "name": "Ritchie Street Group Practice",
+            "distance": "2.4"
+        }
+    }
+}, 
+{
+    "name": "The Rise group Practice",
+    "latLng": {
+        "lat": 51.5714118,
+        "lng": -0.12520549999999275
+    },
+    "props": {
+        "title": "The Rise group Practice",
+        "slug": "therisegrouppractice012520549999999275515714118",
+        "address": "Hornsey Rise Health Centre, London N19 3YU, UK",
+        "web": "www.therisegrouppractice.co.uk",
+        "phone": "+44 20 7561 3420"
+    },
+    "is_ihub": false,
+    "distances": {
+        "0": {
+            "name": "Andover Medical Centre",
+            "distance": "1.2"
+        },
+        "1": {
+            "name": "Islington Medical Centre",
+            "distance": "3.3"
+        },
+        "2": {
+            "name": "Ritchie Street Group Practice",
+            "distance": "4.3"
+        }
+    }
+}, 
+{
+    "name": "Tufnell Park Surgery",
+    "latLng": {
+        "lat": 51.5569785,
+        "lng": -0.13774200000000292
+    },
+    "props": {
+        "title": "Tufnell Park Surgery",
+        "slug": "tufnellparksurgery013774200000000292515569785",
+        "address": "244 Tufnell Park Rd, London N19 5EW, UK",
+        "web": "www.thetuffnellsurgery.co.uk",
+        "phone": "+44 20 7272 9105"
+    },
+    "is_ihub": false,
+    "distances": {
+        "0": {
+            "name": "Andover Medical Centre",
+            "distance": "1.6"
+        },
+        "1": {
+            "name": "Islington Medical Centre",
+            "distance": "2.6"
+        },
+        "2": {
+            "name": "Ritchie Street Group Practice",
+            "distance": "3.2"
+        }
+    }
+}, 
+{
+    "name": "The Village Practice",
+    "latLng": {
+        "lat": 51.55971630000001,
+        "lng": -0.10993800000005649
+    },
+    "props": {
+        "title": "The Village Practice",
+        "slug": "thevillagepractice0109938000000056495155971630000001",
+        "address": "115 Isledon Rd, London N7 7JJ, UK",
+        "web": "www.thevillagepractice.org",
+        "phone": "+44 20 7700 6464"
+    },
+    "is_ihub": false,
+    "distances": {
+        "0": {
+            "name": "Andover Medical Centre",
+            "distance": "0.5"
+        },
+        "1": {
+            "name": "Islington Medical Centre",
+            "distance": "1.7"
+        },
+        "2": {
+            "name": "Ritchie Street Group Practice",
+            "distance": "2.8"
+        }
+    }
+}, 
+{
+    "name": "Elizabeth Avenue Group Practice",
+    "latLng": {
+        "lat": 51.5388282,
+        "lng": -0.09231190000002698
+    },
+    "props": {
+        "title": "Elizabeth Avenue Group Practice",
+        "slug": "elizabethavenuegrouppractice009231190000002698515388282",
+        "address": "2 Elizabeth Ave, Islington, London N1 3BS, UK",
+        "web": "www.elizabethavenue.org.uk",
+        "phone": "+44 20 7226 6363"
+    },
+    "is_ihub": false,
+    "distances": {
+        "0": {
+            "name": "Islington Medical Centre",
+            "distance": "1.1"
+        },
+        "1": {
+            "name": "Ritchie Street Group Practice",
+            "distance": "1.2"
+        },
+        "2": {
+            "name": "Andover Medical Centre",
+            "distance": "3.1"
+        }
+    }
+}, 
+{
+    "name": "Barnsbury Medical Practice",
+    "latLng": {
+        "lat": 51.5392216,
+        "lng": -0.11915959999998904
+    },
+    "props": {
+        "title": "Barnsbury Medical Practice",
+        "slug": "barnsburymedicalpractice011915959999998904515392216",
+        "address": "Bingfield Primary Care Centre, 8 Bingfield St, London N1 0AL, UK",
+        "phone": "+44 7985 702999"
+    },
+    "is_ihub": false,
+    "distances": {
+        "0": {
+            "name": "Ritchie Street Group Practice",
+            "distance": "0.9"
+        },
+        "1": {
+            "name": "Islington Medical Centre",
+            "distance": "1.1"
+        },
+        "2": {
+            "name": "Andover Medical Centre",
+            "distance": "2.5"
+        }
+    }
+}]

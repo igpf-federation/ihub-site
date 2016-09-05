@@ -1,0 +1,46 @@
+---
+layout: null
+---
+
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	{% for navele in site.data.nav.links %}
+		<url>
+			<loc>{{ site.url }}{{ navele.href | remove_first: "/"}}</loc>
+			<changefreq>monthly</changefreq>
+			<priority>0.8</priority>
+		</url>
+	{% endfor %}
+
+	<url>
+		<loc>{{ site.url }}nurse-care/</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.5</priority>
+	</url>
+
+	<url>
+		<loc>{{ site.url }}reviews/</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.4</priority>
+	</url>
+
+	{% for ihub in site.data.ihub %}
+		<url>
+			<loc>{{ site.url }}/ihub/{{ihub.loc | replace: ' ', '-' | replace: '/[^0-9a-zA-Z_ \-]/g' ,'' | downcase }}</loc>
+			<changefreq>monthly</changefreq>
+			<priority>0.3</priority>
+		</url>
+	{% endfor %}
+
+	{% for gp in site.data.gp %}
+		{% if gp.is_hub %}
+			poo
+		{% else %}
+			<url>
+				<loc>{{ site.url }}/gp/{{gp.props.title | replace: ' ', '-' | replace: '/[^0-9a-zA-Z_ \-]/g' ,'' | downcase }}</loc>
+				<changefreq>monthly</changefreq>
+				<priority>0.1</priority>
+			</url>
+		{% endif %}
+	{% endfor %}
+</urlset>

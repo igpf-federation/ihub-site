@@ -1,0 +1,106 @@
+.tile {
+	background: white;
+
+	@include shadow(1);
+
+	@each $bp, $val in $gutter-width-bp {
+		@include bp($bp, only) {
+			margin-bottom: $val;
+			padding: if($bp == xs, $val * 1.6, $val * 0.85);
+		}
+	}
+
+	&:last-child,
+	& > *:last-child {
+		margin-bottom: 0;// !important;
+	}
+
+	& > *:first-child {
+		margin-top: 0;// !important;
+	}
+
+	.seg {
+		border-bottom: 1px solid tr(0.2);
+		border-top: 1px solid transparent;
+		margin-top: -1px;
+
+		&:last-child {
+			border-bottom: 0;
+
+			& > *:last-child {
+				margin-bottom: 0 !important;
+			}
+		}
+
+		&:first-child > *:first-child {
+			margin-top: 0 !important;
+		}
+	}
+
+	h1,
+	h2,
+	.header {
+		color: $color-primary;
+	}
+
+	&.inverted {
+		background-color: $color-primary;
+		
+		h2,
+		p,
+		ul,
+		li {
+			color: $white;
+		}
+
+		h2 {
+			font-weight: normal;
+		}
+
+		a {
+			color: $color-accent;
+
+			&:hover,
+			&:active {
+				color: towhite($color-accent, 0.4);
+			}
+		}
+	}
+
+	&.color-bar {
+		border-top: 5px solid $color-accent;
+		
+		&.inverted {
+			border-top: 5px solid $white;
+		}
+	}
+
+	.map-banner {
+		padding-top: 40%;
+		background-image: linear-gradient(transparent 0%, transparent 50%, white 100%),
+			url('/img/islington-map-tile.jpeg');
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-size: cover;
+
+		@each $bp, $val in $gutter-width-bp {
+			@include bp($bp, only) {
+				margin-top: if($bp == xs, $val * -1.6, $val * -0.85);
+				margin-right: if($bp == xs, $val * -1.6, $val * -0.85);
+				margin-left: if($bp == xs, $val * -1.6, $val * -0.85);
+			}
+		}
+	}
+
+	span.ihub {
+		background: $color-accent;
+		color: white;
+		padding: 0.1em 0.3em;
+		position: relative;
+		margin: -0.075em 0;
+	}
+
+	> img {
+		max-width: 100%;
+	}
+}

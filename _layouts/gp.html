@@ -1,0 +1,83 @@
+---
+layout: default
+class: gp
+---
+
+{% if ihub_page %}
+	{% assign props = '' %}
+	{% for gp in site.data.gp %}
+		{% if gp.name == page.gp %}
+			{% assign props = gp.props %}
+		{% endif %}
+	{% endfor %}
+{% else %}
+	{% assign props = page.props %}
+{% endif %}
+
+<div class="container">
+	<div class="row tiles">
+		<div class="col-xs-12 col-md-6">
+			<div class="tile{% if ihub_page %} ihub{% endif %}">
+				<h1>
+					{{props.title}}
+				</h1>
+				<p>
+					Is this your usual GP practice?
+					If so, you can call their 
+					number 8am to 8pm seven days 
+					a week and ask for an I:HUB 
+					appointment.
+				</p>
+				<a href="tel:{{props.phone}}" class="phone btn"><i class="fa fa-phone" aria-hidden="true"></i> {{props.phone | replace: "+44 ", "0"}}</a>
+			</div>
+			<div class="tile">
+				<div class="seg">
+					<h2>Address</h2>
+				</div>
+				<div class="seg">
+					<p>
+						{{props.address
+						| replace: " St,", " Street,"
+						| replace: ", UK", ""
+						| replace: ", ", ",<br>"
+						}}
+					</p>
+				</div>
+			</div>
+			<div class="tile nearest-ihubs">
+				<div class="seg">
+					<h2 class="ihub-color">Nearest I:HUBs to this GP practice</h2>
+				</div>
+				<div class="seg">
+					{{ ihub_lookup }}
+					{{ distances }}
+					{% for ihub in page.distances %}
+						{% for ihub_datum in site.data.ihub %}
+							{% if ihub[1].name == ihub_datum.gp %}
+								{% assign ihub_loc = ihub_datum.loc %}
+							{% endif %}
+						{% endfor %}
+						<p>
+							<a href="/ihub/{{ ihub_loc | slugify }}">
+								<b>I:HUB @ {{ ihub_loc }}</b> - {{ ihub[1].distance }} km away
+							</a>
+						</p>
+					{% endfor %}
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-12 col-md-6">
+			<div class="tile">
+				<div class="iframe-wrapper">
+					<iframe class="map"
+						frameborder="0" style="border:0"
+						src="https://www.google.com/maps/embed/v1/place?key=
+						AIzaSyD4kDE9bBNro_8zl3s8z8a3pIfyfL-KfIo
+						&q={{props.title}}"
+						allowfullscreen>
+					</iframe>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

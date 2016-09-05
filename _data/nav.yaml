@@ -1,0 +1,18 @@
+links:
+  - label: About Us
+    slug: about
+    href: /about/
+  - label: Our Services
+    slug: services
+    href: /services/
+  - label: Booking Appointments
+    slug: make
+    href: /make-appointment/
+  - label: Getting There
+    slug: get-to
+    href: /get-to-appointment/
+  - label: Contact
+    slug: contact
+    href: /contact/
+logo: /img/ihub-logo.png
+burger: true

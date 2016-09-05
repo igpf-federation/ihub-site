@@ -1,0 +1,23 @@
+<div class="tile color-bar">
+	{% for section in site.data.sections %}
+		<h2>{{section | capitalize}} Islington:</h2>
+		{% for ihub in site.data.ihub %}
+			{% if ihub.section == section %}
+				<p>
+					<a
+						href="/ihub/{{ ihub.loc | replace: "'", "" | slugify }}"
+						class="not-colored"
+					>
+						<b>{{ihub.loc}}</b>
+					</a>
+					<br>
+					{{ihub.opening_times}}
+				</p>
+			{% endif %}
+		{% endfor %}
+	{% endfor %}
+
+	<p><a class="btn" href="/get-to-appointment/">Getting there</a></p>
+
+	
+</div>

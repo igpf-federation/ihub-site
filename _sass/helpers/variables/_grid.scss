@@ -1,0 +1,30 @@
+// ---- Breakpoint Definitions ---- //
+
+$screen-sm-min: 768px;
+$screen-md-min: 992px;
+$screen-lg-min: 1200px;
+
+$screen-xs-max: $screen-sm-min - 1;
+$screen-sm-max: $screen-md-min - 1;
+$screen-md-max: $screen-lg-min - 1;
+
+// ---- Bootstrap Grid Stuff ---- //
+
+$gutter-width: 30px;
+$half-gutter: $gutter-width / 2;
+
+$gutter-width-bp: (
+	xs: 10px,
+	sm: 30px,
+	md: 30px,
+	lg: 30px
+);
+
+$half-gutter-bp: (
+	xs: map-get($gutter-width-bp, xs) / 2,
+	sm: map-get($gutter-width-bp, sm) / 2,
+	md: map-get($gutter-width-bp, md) / 2,
+	lg: map-get($gutter-width-bp, lg) / 2
+);
+
+$container-xs-max-width: 420px;

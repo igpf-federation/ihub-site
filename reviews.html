@@ -1,0 +1,26 @@
+---
+layout: default
+title: Reviews
+slug: reviews
+---
+
+<div class="container">
+	<div class="row tiles">
+		<div class="col-xs-12 col-md-7 ihub-colorize">
+			{% for reviews in site.data.reviews %}
+				<div class="tile">
+					<div class="seg">
+						<h2>I:HUB @ {{reviews.loc}}</h2>
+					</div>					
+					{% assign thisReviewStuff = reviews %}
+					{% include reviews.html %}
+				</div>
+			{% endfor %}
+			
+		</div>
+
+		<div class="col-xs-12 col-md-5">
+			{% include sidebar.html %}
+		</div>
+	</div>
+</div>

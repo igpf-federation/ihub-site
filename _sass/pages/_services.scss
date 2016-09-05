@@ -1,0 +1,54 @@
+.procon {
+	li {
+		margin-top: 0.5em;
+		padding-left: 1.8em;
+		position: relative;
+
+		&:before {
+			position: absolute;
+			left: 0;
+			top: 0;
+			font-weight: bold;
+			font-size: 1.5em;
+			line-height: 1;	
+		}
+	}
+
+	&.pro li:before {
+		content: "\2713";
+		color: $color-primary;
+	}
+
+	&.con li:before {
+		content: "\2717";
+		color: crimson;
+	}
+
+	h3 {
+		margin-bottom: 0;
+	}
+}
+
+.nurse-care {
+	li {
+		margin-bottom: 0.5em;
+		padding-left: 1.3em;
+		position: relative;
+
+		&:before {
+			content: "";
+			position: absolute;
+			left: 0;
+			top: 0.42em;
+			width: 0.5em;
+			height: 0.5em;
+			background: #2073bc;
+			border-radius: 50%;	
+		}
+	}
+
+	.emphasise {
+		font-weight: bold;
+	}
+	
+}

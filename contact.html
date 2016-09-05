@@ -1,0 +1,74 @@
+---
+layout: default
+title: Contact
+slug: contact
+---
+
+<div class="container">
+	<div class="row tiles">
+		<div class="col-md-7">
+			<div class="tile">
+				<h2>Contact Us</h2>
+
+				<p>
+					For general inquiries about I:HUB Islington GP hubs please email the team at <a href="mailto:islingtonGP@nhs.net">islingtonGP@nhs.net</a>.
+				</p>
+
+				<p>
+					Alternatively, you can provide feedback by calling our Patient Advice &amp; Liaison Line on <a href="tel:0203 859 4959">0203 859 4959</a>. The phone lines are open between 12 noon and 2pm each weekday. Please note there is no answer phone facility.
+				</p>
+			</div>
+
+			<div class="tile">
+				<h2>For further information...</h2>
+
+				<p>
+					If you would like to find out more about extended hours GP services or other aspects of Primary Care in Islington you may find the following links useful:
+					
+					<p>NHS's Head of Primary Care Commissioning on seven day services: <a href="https://www.england.nhs.uk/2013/10/david-geddes/">https://www.england.nhs.uk/2013/10/david-geddes/</a></p>
+
+					<p>Improving general practice – a call to action: <a href="https://www.england.nhs.uk/ourwork/qual-clin-lead/calltoaction/igp-cta/">https://www.england.nhs.uk/ourwork/qual-clin-lead/calltoaction/igp-cta/</a></p>
+
+					<p>NHS Five Year Forward View: <a href="https://www.england.nhs.uk/ourwork/futurenhs/">https://www.england.nhs.uk/ourwork/futurenhs/</a></p>
+
+					<p>Information about healthcare in Islington: <a href="http://www.healthwatchislington.co.uk/">http://www.healthwatchislington.co.uk/</a></p>
+				</p>
+			</div>
+
+			<div class="tile color-bar">
+				<h2>Need to make an appointment?</h2>
+				
+				{% include make-appointment-text.html %}
+				
+				<p>
+					If you do not remember your GP surgery name or telephone number use our GP finder below.
+				</p>
+
+				<a class="btn" href="/make-appointment/">Find your GP</a>
+			</div>
+		</div>
+
+		<div class="col-md-5">
+			{% include sidebar/sidebar1.html %}
+
+			<div class="tile">
+				<h2>Islington GP Practices</h2>
+
+				{% for gp in site.data.gp %}
+					{% unless gp.is_ihub %}
+						<p>
+							<a href="/gp/{{ gp.props.title | replace: ' ', '-' | downcase }}/">
+								<b>{{gp.props.title}}</b>
+							</a>
+							<br>
+
+							<a href="tel:{{gp.props.phone | replace: ' ', ''}}">
+								{{gp.props.phone}}
+							</a>
+						</p>
+					{% endunless %}
+				{% endfor %}
+			</div>
+		</div>
+	</div>
+</div>

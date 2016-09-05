@@ -1,0 +1,10 @@
+.rating {
+	text-align: center;
+
+	@extend p;
+
+	.stars {
+		font-size: 2.25em;
+		//line-height: 1;
+	}
+}	

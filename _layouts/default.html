@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+	{% include head.html %}
+
+	<body class="{{ page.class }} {{ layout.class }} {{ page.layout }} {{ page.title }}">
+		{% include nav.html %}
+		
+		<main>{{ content }}</main>
+		
+		{% include footer.html %}
+		
+		{% include js-mq.html %}
+		
+		{% include js-sass-vars.html %}
+	</body>
+</html>

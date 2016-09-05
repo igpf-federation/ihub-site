@@ -1,0 +1,133 @@
+$gutter-width-xs: map-get($gutter-width-bp, xs);
+@import 'panel-search';
+@import 'panel-content';
+
+body.gp-map #panel-test {
+	display: none;
+}
+
+body.gp-map-test #panel {
+	display: none;
+}
+
+body.gp-map footer.footer-main {
+	display: none;
+}
+
+.container-map {
+	position: fixed;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: $nav-height;
+	@include xs { top: $nav-height-xs; }
+
+	$panel-width: 400px;
+	$panel-width-sm: 350px;
+
+	#map-canvas {
+		position: absolute;
+		z-index: 0;
+		top: 0;
+		bottom: 0;
+		left: $panel-width;
+		right: 0;
+		background: white;
+
+		@include xs {
+			left: 0;
+		}
+
+		@include sm {
+			left: $panel-width-sm;
+		}
+	}
+
+	#panel,
+	#panel-test {
+		position: absolute;
+		z-index: 2;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		width: $panel-width;
+		@include shadow(1);
+		//overflow: auto;
+
+		@include xs {
+			width: auto;
+			right: 0;
+		}
+
+		@include sm {
+			width: $panel-width-sm;
+		}
+	}					
+
+	#show-panel-btn {
+		display: none;
+	}
+
+	.tile {
+		$val: $gutter-width-xs;
+		margin-bottom: $val;
+		padding: $val * 1.6;
+	}
+}
+
+@include xs {
+	.container-map {
+		#panel {
+			background: transparent;
+			@include transition($transition-default);
+			box-shadow: none;
+		}
+
+		#show-panel-btn {
+			display: block;
+			z-index: 3;
+			position: absolute;
+			$p: $gutter-width-xs;
+			bottom: $p;
+			left: $p;
+			background: $color-primary;
+			color: white;
+			text-transform: uppercase;
+		    font-weight: bold;
+		    font-size: 1em;
+		    padding: 1em 1.5em;
+		    min-width: 10em;
+		    text-align: center;
+		    @include shadow(2);
+
+		    span {
+		    	display: none;
+		    }
+		}
+	}
+
+	.container-map:not(.show-panel) {
+		#panel {
+			bottom: auto;
+
+			.panel-search.shadow {
+				box-shadow: none !important;
+			}
+
+			.panel-content {
+				display: none;
+			}
+		}
+	}
+
+	.container-map.show-panel { 
+		#panel {
+			background: $color-bg;		
+		}
+	}
+
+	.container-map:not(.show-panel):not(.show-directions) #show-panel-btn span.list-label { display: inline; }
+	.container-map:not(.show-panel).show-directions #show-panel-btn span.dir-label { display: inline; }
+	.container-map.show-panel:not(.show-directions) #show-panel-btn span.map-label { display: inline; }
+	.container-map.show-panel.show-directions #show-panel-btn span.map-label { display: inline; }
+}

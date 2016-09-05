@@ -1,0 +1,53 @@
+@import 'about';
+
+section {
+	width: 100%;
+	padding: 100px 0;
+	@include bp-each(padding, 2em 0, 3em 0, 3.5em 0, 3.5em 0);
+
+	h1, h2, h3 {
+		font-weight: 600;
+		font-weight: normal;
+	}
+
+	.sec-header {
+		font-size: 3.2em;
+		@include xs { font-size: 2.4em; }
+		text-align: center;
+		margin-bottom: 0.5em;
+		margin-top: -0.1em;
+		line-height: 1;
+	}
+
+	p.more-margin {
+		margin-bottom: 2em;
+	}
+
+	a.btn.more-info {
+		margin-top: 1.6em;
+	}
+
+	[class^=col] {
+		margin-bottom: $gutter-width;
+
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+
+	.restrict-width {
+		max-width: 800px;
+		margin-left: auto;
+		margin-right: auto;
+		float: none;
+	}
+}
+
+main > section:nth-child(2n) {
+	background: tr(0.05);
+}
+
+main > section:nth-child(2n+1) {
+	background: transparent;
+}
+

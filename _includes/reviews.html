@@ -1,0 +1,28 @@
+<div class="seg">
+	<div class="rating">
+		IWantGreatCare Rating: 
+		<div class="stars">
+		{% for i in (1..5) %}
+			<i class="fa
+			{% if {{thisReviewStuff.rating}} >= i %}
+			fa-star
+			{% else %}
+			fa-star-o
+			{% endif %}
+			" aria-hidden="true"></i>
+		{% endfor %}
+		</div>
+	</div>
+</div>
+{% for review in thisReviewStuff.reviews %}
+	<div class="seg">
+		<p class="quote">
+			"{{review.quote}}"
+		</p>
+	</div>
+{% endfor %}
+<div class="seg">
+	<p><a href="{{thisReviewStuff.link}}">
+		Click here to see more reviews of this I:HUB or add your own.
+	</a></p>
+</div>

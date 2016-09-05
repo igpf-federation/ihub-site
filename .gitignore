@@ -1,0 +1,29 @@
+# Numerous always-ignore extensions
+*.diff
+*.err
+*.orig
+*.log
+*.rej
+*.swo
+*.swp
+*.vi
+*~
+
+# OS or Editor folders
+.DS_Store
+Thumbs.db
+*.sublime-project
+*.sublime-workspace
+
+# Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
+.grunt
+site
+_config.branch.yml
+.sass-cache
+_site
+
+js-store-locator
+node_modules
+.jekyll-metadata
+
+.env

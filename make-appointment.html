@@ -1,0 +1,53 @@
+---
+layout: default
+title: Booking Appointments
+class: appo map-api gp-search gp-select
+slug: make
+---
+
+<div class="container">
+	<div class="row tiles">
+		<div class="col-xs-12 col-md-7">
+			<div class="tile">
+				<h1>Booking an appointment is simple...</h1>
+				
+				{% include make-appointment-text.html %}
+
+				<p>You can find the telephone number of your usual surgery below.</p>
+			</div>
+
+			<div class="tile color-bar">
+				<h2>If you don't know the name of your GP practice...</h2>
+				
+				<p>Enter your location or postcode below to find your usual surgery.</p>
+				
+				<div class="search-widget location-search">
+					<form action="/map/" method="get">
+						<input type="text" id="input-gp-search" name="loc">
+						<button class="search-button"><i class="fa fa-search"></i></button>
+					</form>
+
+					<!--<button class="geo-btn button-gp-search"><div class="gps-icon"><i class="fa fa-compass"></i></div><span>Find my current location</span></button>-->
+				</div>
+			</div>
+
+			<div class="tile color-bar">
+				<h2>If you already know the name of your usual GP practice...</h2>
+				
+				<p>Select your surgery from the dropdown list below.</p>
+				
+				<select id="gp-select">
+					<option>Please select a GP</option>
+					
+					{% for gp in site.data.gp %}
+						<option class="gp-option">{{gp.props.title}}</option>
+					{% endfor %}
+				</select>
+			</div>
+		</div>
+
+		<div class="col-xs-12 col-md-5">
+			{% include sidebar.html %}
+		</div>
+	</div>
+</div>

@@ -1,0 +1,43 @@
+// body.notfound {
+// 	&:before {
+// 		@include colorize-bg('/img/sb.jpg', tr(0.5), '/img/pixel-overlay-2.png');
+// 		@include xs {
+// 			@include colorize-bg('/img/sb.jpg', tr(0.7));
+// 		}
+// 	}
+
+// 	footer {
+// 		background: none;
+// 	}
+
+// 	.center-of-page {
+// 		position: fixed;
+// 		top: 50%;
+// 		left: 50%;
+// 		transform: translate(-50%,-50%);
+// 		text-align: center;
+// 		font-size: 50px;
+// 		@include xs { font-size: 20px; };
+// 		width: 500px;
+
+// 		.text-404, .text-notfound {
+// 			color: white;
+// 			font-weight: 700;
+// 			line-height: 1;
+// 			text-shadow: 0 5px 5px tr(0.5);
+// 		}
+
+// 		.text-404 {
+// 			font-size: 5em;
+// 			font-weight: 700;
+// 			margin-top: -0.4em;
+// 		}
+
+// 		.text-notfound {
+// 			font-size: 1em;
+// 			margin-left: 0.1em;
+// 		}
+// 	}
+
+	
+// }

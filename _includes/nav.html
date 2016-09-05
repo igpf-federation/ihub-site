@@ -1,0 +1,19 @@
+<nav class="nav-main">
+	<div class="container-nav">
+		<div class="for-mobile-only">
+			<div class="dark"></div>
+			<div class="overlay"></div>
+			<button class="menu {% if site.data.nav.burger %}burger{% else %}text{% endif %}"><span></span></button>
+		</div>
+		<span class="logo"><a class="" href="{{ site.baseurl }}/">
+			<img src="{{ site.baseurl }}{{ site.data.nav.logo }}"/>
+		</a></span>		
+		<div class="links {% if page.slug %} active{% endif %}">
+			<div class="button-linebreak-help">
+				{% for link in site.data.nav.links %}
+					<a class="link{% if page.slug == link.slug %} active{% endif %}{% if link.cta %} cta{% endif %}" href="{{ site.baseurl }}{{ link.href }}">{{ link.label }}</a>
+				{% endfor %}
+			</div>
+		</div>
+	</div>
+</nav>

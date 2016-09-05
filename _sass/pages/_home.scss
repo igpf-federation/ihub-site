@@ -1,0 +1,150 @@
+body.home {
+	$banner-height-bp: (
+		xs: 400px,
+		sm: 400px,
+		md: 400px,
+		lg: 440px
+	);
+
+	.banner-wrapper {
+		position: relative;
+		background-color: #ddd;
+		background-image: url('/img/islington-map.jpeg');
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-size: cover;
+
+		@include shadow(-1);
+
+		@each $bp, $val in $banner-height-bp { @include bp($bp, only) {
+				height: $val;
+		}}
+
+		.banner-tag {
+			background-color: rgba(0,0,0,0.5);
+			color: $white;
+			text-align: center;
+			width: 100%;
+			position: absolute;
+			bottom: 0;
+			vertical-align: middle;
+
+			img {
+				max-height: 2em;
+				margin: 0 0.5em;
+			}
+
+			p,
+			img {
+				vertical-align: middle;
+				display: inline-block;
+				@include xs {
+					font-size: 0.75em;
+					max-height: 1.75em;
+				}
+			}
+
+			
+		}
+
+		.carousel {
+			position: relative;
+			@each $bp, $val in $gutter-width-bp { @include bp($bp, only) {
+					$tagMultiplier: if($bp == xs, 0.75, 1);
+					height: map-get($banner-height-bp, $bp) - (2 * $val) - ((($line-height * $tagMultiplier) + 2) * map-get($font-size-bp, $bp));
+					margin-top: $val;
+			}}
+
+			.card {
+				position: absolute;
+				@include contained(0);
+				display: none;
+				$o: 0.8;
+
+				&:nth-child(1) {
+					display: block;
+					background: rgba($purple, $o);
+					color: rgba(black, 0.75);
+
+					.btn {
+						@include btn-color(tr(0.33));
+					}
+
+					p:first-child {
+						font-size: 1.4em;
+						font-weight: bold;
+					}
+				}
+
+				&:nth-child(2) {
+					background: rgba($green, $o);
+					color: rgba(black, 0.75);
+
+					.btn {
+						@include btn-color(tr(0.33));
+					}
+
+					
+				}
+
+				&:nth-child(3) {
+					background: rgba(white, $o);
+					color: $color-header;
+
+					p:first-child {
+						font-size: 1.4em;
+						font-weight: bold;
+						color: $color-primary;
+					}
+				}
+
+				.tile {
+					position: absolute;
+					top: 50%;
+					left: 0;
+					right: 0;
+					@include transform(translateY(-50%));
+					text-align: center;
+					box-shadow: none;
+					background: none;
+					margin: 0;
+				}
+
+				p.bold {
+					font-weight: bold;
+					margin-bottom: 0;
+
+					& + p {
+						margin-top: 0;
+					}
+				}
+
+
+
+			}
+
+			.carousel-nav {
+				position: absolute;
+				bottom: 10px;
+				left: 50%;
+				@include transform(translateX(-50%));
+				font-size: 0;
+
+				.circle {
+					display: inline-block;
+					width: 10px;
+					height: 10px;
+					margin: 0 5px;
+					border-radius: 50%;
+					border: 1px solid white;
+					@include transition(0.1s linear background);
+					cursor: pointer;
+
+					&.active {
+						background: white;
+					}
+				}
+			}
+		}
+	}
+}

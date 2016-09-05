@@ -1,0 +1,10 @@
+.js-sass-vars, .js-mq {
+	display: none;
+}
+
+.js-sass-vars {
+	.footer-height { content: '#{$footer-height}' };
+	.footer-height-xs { content: '#{$footer-height-xs}' };
+	.navbar-height { content: '#{$nav-height}' };
+	.navbar-height-xs { content: '#{$nav-height-xs}' };
+}

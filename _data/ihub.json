@@ -1,0 +1,46 @@
+[
+	{
+		"loc": "Laycock Street",
+		"gp": "Islington Medical Centre",
+		"opening_times": "Mon: 6:30 - 9pm<br>Tue - Fri: 6.30 – 8pm<br>Sat &amp; Sun: 8am – 8pm",
+		"section": "central",
+		"travel": {
+			"buses": [ 4, 19, 30, 43, 153, 271, 277, 393, ],
+			"tube": {
+				"Highbury & Islington": 6,
+				"Holloway": 16,
+				"Caledonian Rd": 16,
+				"Angel": 19,
+			}
+		}
+	},
+	{
+		"loc": "Hornsey Road",
+		"gp": "Andover Medical Centre",
+		"opening_times": "Mon - Fri: 6.30 – 8pm<br>	Sat: 8am – 2pm",
+		"section": "north",
+		"travel": {
+			"buses": [ 4, 17, 29, 43, 91, 153, 253, 254, 259, 263, 271, 393, ],
+			"tube": {
+				"Finsbury Park": 11,
+				"Holloway Rd": 16,
+				"Archway": 20,
+				"Highbury & Islington": 26,				
+			}
+		}
+	},
+	{
+		"loc": "Ritchie Street",
+		"gp": "Ritchie Street Group Practice",
+		"opening_times": "Mon - Fri: 6.30 – 8pm<br>	Sat: 10am – 4pm",
+		"section": "south",
+		"travel": {
+			"buses": [ 4, 19, 30, 38, 43, 56, 73, 153, 205, 214, 274, 341, 394, 476, ],
+			"tube": {
+				"Angel": 5,
+				"King's Cross": 20,
+				"Highbury & Islington": 21,				
+			}
+		}
+	},
+]

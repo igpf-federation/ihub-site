@@ -1,0 +1,144 @@
+---
+layout: default
+class: gp ihub map-api
+---
+
+{% for gp in site.data.gp %}
+	{% if gp.name == page.gp %}
+		{% assign props = gp.props %}
+		{% assign latLng = gp.latLng %}
+	{% endif %}
+{% endfor %}
+
+
+{% capture map_link %}
+/map/?geo=1&gp=ihub--{{page.loc | replace: ' ', '-' | replace: '/[^0-9a-zA-Z_ \-]/g' ,'' | downcase }}&ihub=1
+{% endcapture %}
+
+
+<div class="container">
+	<div class="row tiles">
+		<div class="col-xs-12 col-md-6">
+			<div class="tile">
+				<h1>Islington GP Hub @ {{page.loc}}</h1>
+
+				<a href="{{map_link}}" class="phone btn"><i class="fa fa-compass" aria-hidden="true"></i> Get directions</a>
+			</div>
+
+			<div class="tile">
+				<div class="seg">
+					<h2>Booking an appointment</h2>
+				</div>
+
+				<div class="seg">
+					{% include make-appointment-text.html %}
+				
+					<p>
+						If you do not remember 
+						your GP surgery name or 
+						telephone number use our GP 
+						finder below.
+					</p>
+
+					<a class="btn" href="/make-appointment/">Find your GP</a>
+				</div>
+			</div>
+
+			<div class="tile">
+				<div class="seg">
+					<h2>Address</h2>
+				</div>
+
+				<div class="seg">
+					<p>
+						{{props.title}},<br>
+						{{props.address
+						| replace: " St,", " Street,"
+						| replace: ", UK", ""
+						| replace: ", ", ",<br>"
+						}}
+					</p>
+				</div>
+			</div>
+
+			<div class="tile">
+				<div class="seg">
+					<h2>Opening times</h2>
+				</div>
+
+				<div class="seg">
+					<p>
+						{{page.opening_times}}
+					</p>
+				</div>
+			</div>
+
+			<div class="tile">
+				<div class="seg">
+					<h2>Reviews</h2>
+				</div>
+
+				{% for reviews in site.data.reviews %}
+					{% if reviews.loc == page.loc %}
+						{% assign thisReviewStuff = reviews %}
+
+						{% include reviews.html %}
+					{% endif %}
+				{% endfor %}
+			</div>
+		</div>
+
+		<div class="col-xs-12 col-md-6">
+			<div class="tile">
+				<div
+					class="iframe-wrapper"
+					data-lat="{{latLng.lat}}"
+					data-lng="{{latLng.lng}}"
+				>
+				</div>
+
+				<p>
+					<a href="{{map_link}}" class="btn dir"><i class="fa fa-compass" aria-hidden="true"></i> Get directions to this I:HUB</a>
+				</p>
+			</div>
+
+			<div class="tile">
+				<div class="seg">
+					<h2>Getting there</h2>
+				</div>
+
+				<div class="seg get-there tube">
+					<p>
+						{% for tubestop in page.travel.tube %}
+							<b>{{ tubestop[0] }}</b> – {{ tubestop[1] }} min walk<br>
+						{% endfor %}
+					</p>
+				</div>
+
+				<div class="seg get-there bus">
+					<p>
+						<b>
+							{% for busnumber in page.travel.buses %}
+								<span class="bus-number">{{ busnumber }}</span>
+							{% endfor %}
+						</b>
+					</p>
+				</div>
+			</div>
+
+			<div class="tile">
+				<div class="seg">
+					<h2>Other I:HUBs</h2>
+				</div>
+
+				<div class="seg">
+					{% for ihub in site.data.ihub %}
+						{% if ihub.loc != page.loc %}
+							<p><a href="/ihub/{{ ihub.loc | replace: "'", "" | slugify }}/">&#x25CF {{ ihub.loc }}</a></p>
+						{% endif %}
+					{% endfor %}
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

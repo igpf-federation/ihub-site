@@ -1,0 +1,15 @@
+body.ihub,
+.ihub-colorize {
+	h1, h2, .header {
+		color: $color-accent !important;
+	}
+
+	a, a:hover, a:active, a:visited {
+		color: $color-accent;
+	}
+
+	a.btn {
+		color: white;
+		@include btn-color($color-accent);
+	}	
+}

@@ -1,0 +1,10 @@
+{
+  "name": "codogo-template-site",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Josh @ Codogo",
+  "dependencies": {
+    "codogo-default-scss": "^0.3.0",
+    "dotenv": "^8.0.0"
+  }
+}

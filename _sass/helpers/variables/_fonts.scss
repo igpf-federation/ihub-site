@@ -1,0 +1,49 @@
+// ---- Font Imports ---- //
+
+// keep fonts commented out if not in use,
+// including them in the css has a non-negligible effect on load time
+// since they are loaded externally (fonts.gstatic.com)
+
+$font-tit: 'Titillium Web', Helvetica, sans-serif;
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web:400,400i,600,600i,700i,700);
+
+// $font-sourceserif: 'Source Serif Pro', serif;
+// @import url(https://fonts.googleapis.com/css?family=Source+Serif+Pro:400,600,700);
+
+// $font-sourcesans: 'Source Sans Pro', Helvetica, sans-serif;
+// @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,700,700i);
+
+$font-opensans: 'Open Sans', Helvetica, sans-serif;
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i);
+
+// $font-merri: 'Merriweather', serif;
+// @import url(https://fonts.googleapis.com/css?family=Merriweather:400,400i,700,700i);
+
+$font-istok: 'Istok Web', Helvetica, Arial, sans-serif;
+@import 'https://fonts.googleapis.com/css?family=Istok+Web:400,700';
+
+$font-frut: 'Frutiger', Helvetica, Arial, sans-serif;
+@import 'fonts/frutiger';
+
+$font-arial: Arial, sans-serif;
+
+
+// ---- Font Settings ---- //
+
+$font-size-xs: 14px;
+$font-size-sm: 16px;
+$font-size-md: 17px;
+$font-size-lg: 18px;
+
+$font-size-bp: (
+	xs: 15px,
+	sm: 16px,
+	md: 16px,
+	lg: 18px
+);
+
+$font-size: $font-size-md;
+
+$font-default: $font-opensans;//$font-frut;
+$font-header: $font-default;
+$line-height: 1.4;
