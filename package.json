@@ -1,8 +1,8 @@
 {
-  "name": "codogo-template-site",
-  "version": "1.0.0",
-  "description": "",
-  "author": "Josh @ Codogo",
+  "name": "ihub-site",
+  "version": "2.0.1",
+  "description": "Site for IHUB services of IGPF",
+  "author": "Max Clayton Clowes <maxcc@me.com>",
   "dependencies": {
     "codogo-default-scss": "^0.3.0",
     "dotenv": "^8.0.0"
