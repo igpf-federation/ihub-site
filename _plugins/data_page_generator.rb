@@ -1,9 +1,9 @@
 # Generate pages from individual records in yml files
 # (c) 2014-2016 Adolfo Villafiorita
 # Distributed under the conditions of the MIT License
+# https://github.com/avillafiorita/jekyll-datapage_gen
 
 module Jekyll
-
   module Sanitizer
     # strip characters and whitespace to create valid filenames, also lowercase
     def sanitize_filename(name)

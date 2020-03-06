@@ -1,15 +1,18 @@
 title: I:HUB | Islington GP Hubs
-email: your-email@domain.com
+email: islingtonGP@nhs.net
 description: > # this means to ignore newlines until "baseurl:"
   I:HUB brings 7 day care acccess to Islington. See local GPs from 8am to 8pm, 7 days a week.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://www.islingtongp.nhs.uk/" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+twitter_username: mcclowes
+github_username:  mcclowes
 
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+plugins:
+  - data_page_generator
 
 page_gen:
   - data: 'gp'
