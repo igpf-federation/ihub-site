@@ -1,4 +1,6 @@
- define([ "jquery" ], function($) {
+define([ "jquery" ], function($) {
+	const GOOGLE_MAPS_KEY = 'AIzaSyDtzGO_T45Cl4pg5cMsOCJC-Rj-6598czo'
+	
 	require.config({
 		baseUrl: "/assets/js/lib"
 	});
@@ -15,7 +17,7 @@
 	};
 
 	if(body.hasClass("map-api")) {
-		require([ `https://maps.googleapis.com/maps/api/js?libraries=places&key=${process.env.GOOGLE_MAPS_KEY}`], function() {
+		require([ `https://maps.googleapis.com/maps/api/js?libraries=places&key=${GOOGLE_MAPS_KEY}`], function() {
 
 			if(body.hasClass("gp-map")) {
 				require(["locations/store-locator.min"], function() {
