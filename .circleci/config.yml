@@ -6,10 +6,10 @@ jobs:
     steps:
       - checkout
       - run:
-        name: install dependencies
-        command: |
-          gem update --system
-          gem install bundler
+          name: install dependencies
+          command: |
+            gem update --system
+            gem install bundler
       - run: npm install
       - run: bundle install
       - run: bundle exec jekyll build
