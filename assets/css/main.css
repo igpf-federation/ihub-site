@@ -953,7 +953,7 @@ form.paper .success + .error-msg, form.paper .pls-fill + .error-msg, form.paper 
       border-top: 5px solid #fff; }
   .tile .map-banner {
     padding-top: 40%;
-    background-image: linear-gradient(transparent 0%, transparent 50%, white 100%), url("/img/islington-map-tile.jpeg");
+    background-image: linear-gradient(transparent 0%, transparent 50%, white 100%), url("/assets/img/islington-map-tile.jpeg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover; }
@@ -2463,7 +2463,7 @@ body {
 body.home .banner-wrapper {
   position: relative;
   background-color: #ddd;
-  background-image: url("/img/islington-map.jpeg");
+  background-image: url("/assets/img/islington-map.jpeg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;

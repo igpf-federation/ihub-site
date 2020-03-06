@@ -1,11 +1,9 @@
  define([ "jquery" ], function($) {
 	require.config({
-		baseUrl: "/js/lib"
+		baseUrl: "assets/js/lib"
 	});
 
-	// requirejs([ "test" ]);
 	require([ "nav", "mq" ]);
-	//requirejs(["../vendor/scrollTo.min", "../vendor/localScroll.min", "../vendor/opentip" ]);
 
 	var body = document.body;
 	body.hasClass = function(className) {
@@ -47,11 +45,6 @@
 			};
 		});
 	};
-
-
-
-
-	
 });
 
 

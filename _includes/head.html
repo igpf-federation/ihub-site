@@ -13,13 +13,13 @@
 	<meta property="og:site_name" content="{{ site.title }}" />
 	<meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}" />
 
-	<link rel="icon" href="{{ "/img/favicon.png" | prepend: site.baseurl}}" type="image/x-icon" />
+	<link rel="icon" href="{{ "/assets/img/favicon.png" | prepend: site.baseurl}}" type="image/x-icon" />
 
 	<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-	<link rel="icon" href="{{ "/img/favicon.png" | prepend: site.baseurl }}" type="image/x-icon" />
+	<link rel="icon" href="{{ "/assets/img/favicon.png" | prepend: site.baseurl }}" type="image/x-icon" />
 
 	<!-- CSS -->
-	<link rel="stylesheet" type="text/css" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+	<link rel="stylesheet" type="text/css" href="{{ "/assets/css/main.css" | prepend: site.baseurl }}">
 
 	<!-- JS -->
 	<script data-main="{{ site.baseurl }}/js/app" src="{{ site.baseurl }}/js/require.js"></script>

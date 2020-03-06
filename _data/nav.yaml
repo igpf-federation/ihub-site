@@ -14,5 +14,5 @@ links:
   - label: Contact
     slug: contact
     href: /contact/
-logo: /img/ihub-logo.png
+logo: /assets/img/ihub-logo.png
 burger: true
