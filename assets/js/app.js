@@ -1,6 +1,6 @@
  define([ "jquery" ], function($) {
 	require.config({
-		baseUrl: "assets/js/lib"
+		baseUrl: "/assets/js/lib"
 	});
 
 	require([ "nav", "mq" ]);
